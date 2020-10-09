@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 600px;
+   
+}
+
+.header{
+    text-align: center;
+}
+.header p{
+    text-align: left;
+}
+.boc1{
+    width: 90%;
+    height:250px ;
+    margin-left: 55px;
+    margin-bottom: 100px;
+    display: inline-block;
+    text-align: center;
+    border: 0.1px solid black;
+    
+   
+   
+}
+.opp{
+    width:50%;
+    height: 250px;
+    display: inline-block;
+   
+}
+.opp img{
+    width: 100%;
+    height: 245px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.tern{
+    width: 49%;
+    height: 250px;
+    padding-top: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+ 
+}
+.navigation{
+    display: inline-block;
+    width: 100%;
+    height: 10% ;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.navigation ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.navigation ul li a{
+    text-decoration: none;
+}
+
+.navigation ul li {
+    height: 30px;
+    color: crimson;
+    margin: 10px;
+    display: inline-block;
+}
+.bars{
+    display: none;
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    /* background-color: #000000; */
+}
+.footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+@media only screen and (min-width:250px) and (max-width:500px){
+ .container{
+    width: 100%;
+    min-height: 600px;
+   
+}
+ 
+.header{
+    text-align: center;
+}
+.header p{
+    text-align: left;
+}
+.boc1{
+    width: 100%;
+    height:500px ;
+    margin-left: 8px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+    border: 0.1px solid black;
+   
+}  
+.opp{
+    width:100%;
+    height: 250px;
+    display: block;
+   
+}
+.opp img{
+    width: 100%;
+    height: 245px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.tern{
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+    vertical-align: top;
+ 
+}
+.navigation{
+    display: none;
+    width: 100%;
+    height: 10% ;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.navigation ul{
+    list-style-type: none;
+    display: block;
+}
+.navigation ul li a{
+    background-color:white;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    height: 30px;
+    color: crimson;
+    margin: 10px;
+    display: block;
+} 
+.bars{
+    display: block;
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    /* background-color: #000000; */
+}
+
+
+}
+
+
+
+}

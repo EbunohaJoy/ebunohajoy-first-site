@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+}
+.container .boxs{
+     width: 90%;
+     min-height:700px;
+     text-align: center;
+     display: inline-block;
+
+}
+.header{
+    text-align: center;
+
+}
+.row{
+    width:100% ;
+    height: 200px;
+    display: inline-block;
+}
+.row img{
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+.row2{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.wey{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.wey img{
+    width: 100%;
+}
+.merit{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.merit img{
+    width: 100%;
+    overflow: hidden;
+}
+.set{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+
+}
+.set img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+.navigation{
+    display: inline-block;
+    width: 100%;
+    height: 10% ;
+    background-color: black;
+    text-align: center;
+
+}
+.navigation ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.navigation ul li a{
+    text-decoration: none;
+}
+
+.navigation ul li {
+    height: 30px;
+    color: crimson;
+    margin: 10px;
+    display: inline-block;
+}
+.bars{
+    display: none;
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    /* background-color: #000000; */
+}
+.footer{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width:250px) and (max-width:500px){
+   
+   .header{
+    text-align: center;
+
+}
+.row{
+    width:100% ;
+    height: 300px;
+    display: block;
+}
+.row img{
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.row2{
+    width: 100%;
+    height: 300px;
+    display: block;
+    overflow: hidden;
+}
+
+.wey{
+    width: 100%;
+    display: block;
+}
+.wey img{
+        height: 100px;
+    width: 100%;
+}
+.merit{
+    width: 100%;
+    display: block;
+    
+}
+.merit img{
+    width: 100%;
+        height: 100px;
+
+}
+.set{
+    width: 100%;
+    height:400px;
+    display: block;
+
+}
+.set img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+        height: 100px;
+
+}
+.navigation{
+    display: none;
+    width: 100%;
+    height: 10% ;
+    background-color: black;
+    text-align: center;
+
+}
+.navigation ul{
+    list-style-type: none;
+    display: block;
+}
+.navigation ul li a{
+    background-color:white;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    height: 30px;
+    color: crimson;
+    margin: 10px;
+    display: block;
+}
+.bars{
+    display: block;
+    float: right;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 20px;
+    /* background-color: #000000; */
+}
+
+
+
+    
+    
+   
+
+
+}
